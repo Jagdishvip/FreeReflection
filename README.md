@@ -1,28 +1,32 @@
-# FreeReflection
+# ✨『 ↺ Jagdish VIP ↻ 』✨
 
-**FreeReflection** is a library that lets you use reflection without any restriction above Android P (includes Q and R).
+## 🔥 FreeReflection (Unrestricted Reflection API)
 
-## Usage
+**FreeReflection** is a powerful Android library created by **Jagdish VIP** that allows you to freely use Reflection APIs without restrictions on Android P, Q, R, and newer.
 
-1. Add it in your root build.gradle at the end of repositories(jitpack):
+---
 
+## 🚀 How to Use?
+
+### Step 1: Add JitPack repository
+In your project's root `build.gradle`:
 ```gradle
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
 
-2. Add dependency to your project(jcenter):
-
+### Step 2: Add Dependency
+In your app's `build.gradle`:
 ```gradle
 implementation 'com.github.Jagdishvip:FreeReflection:3.1.0'
 ```
 
-3. Add one line to your `Application.attachBaseContext` :
-
+### Step 3: Initialize Reflection
+Inside your `Application` class:
 ```java
 @Override
 protected void attachBaseContext(Context base) {
@@ -31,22 +35,27 @@ protected void attachBaseContext(Context base) {
 }
 ```
 
-Then you can use the reflection API normally, all the restrictions are gone. Enjoy yourself :)
+**That's it!** Now, all reflection restrictions are gone, and you can enjoy using reflection APIs freely!
 
-## Under the hood
+---
 
-- [free reflection above android p](http://weishu.me/2018/06/07/free-reflection-above-android-p/)
-- [another way to use reflection api above android p](http://weishu.me/2019/03/16/another-free-reflection-above-android-p/)
+## 📖 Under the Hood (References)
+- [Free reflection above Android P](http://weishu.me/2018/06/07/free-reflection-above-android-p/)
+- [Another way to bypass reflection API restrictions](http://weishu.me/2019/03/16/another-free-reflection-above-android-p/)
 
-## Donations
+---
 
-If you like this project, buy me a cup of coffee! :)
+## 🙏 Support & Donation
+If you like **FreeReflection** and appreciate my efforts, feel free to buy me a coffee!
 
-BitCoin: 39Wst8oL74pRP2vKPkPihH6RFQF4hWoBqU
+**Bitcoin**: `39Wst8oL74pRP2vKPkPihH6RFQF4hWoBqU`
 
-## License
+---
 
-MIT License
+## ⚖️ License
+[MIT License](LICENSE)
 
+---
 
-
+🌟 **Developed and Maintained by**  
+✨『 ↺ **Jagdish VIP** ↻ 』✨ © 2024
